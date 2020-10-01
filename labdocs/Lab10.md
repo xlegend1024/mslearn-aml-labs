@@ -1,18 +1,18 @@
-# Deploying a Model as a Real-Time Service
+# Interpreting Models
 
-There's no point in training and registering models if you don't plan to make them available for applications to use. In this lab, you'll deploy a model as a web service for real-time inferencing.
+When you train models, you can use *explainers* to determine feature importance.
 
 ## Before You Start
 
 Before you start this lab, ensure that you have completed the *Create an Azure Machine Learning Workspace* and *Create a Compute Instance* tasks in [Getting Started with Azure Machine Learning](Lab01.md). Then return to this lab.
 
-## Create a Real-time Inferencing Service
+## Interpret Models
 
-In this task, you'll create a real-time inferencing service as an Azure Container Instance (ACI).
+In this lab, you'll use Azure Machine Learning to create explanations for models.
 
 1. In [Azure Machine Learning studio](https://ml.azure.com), view the **Compute** page for the workspace you created in the [Getting Started with Azure Machine Learning](Lab01.md) lab; and on the **Compute Instances** tab, ensure your compute instance is running. If not, start it.
 2. When the compute instance is running, click the **Jupyter** link to open the Jupyter home page in a new browser tab.
-3. In the Jupyter home page, in the **Users/mslearn-aml-labs** folder, open the **03-Deploying_a_model.ipynb** notebook. Then read the notes in the notebook, running each code cell in turn.
+3. In the Jupyter home page, in the **Users/mslearn-aml-labs** folder, open the **10-Interpreting_Models.ipynb** notebook. Then read the notes in the notebook, running each code cell in turn.
 
     > **Tip**: If you cloned the repository previously, and the notebook file is not in the **Users/mslearn-aml-labs** folder, open a new terminal in your Jupyter environment and run the following commands to refresh the lab files (overwriting any changes you have made):
 
